@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yoga, the universe and everything</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body class="grid-container">
+    <header class="header">
+        <h1>Yoga, the universe and everything..</h1>
+    </header>
+
+    <nav class="nav">
+        <h3>
+        <ul class="navigation">
+            <li><a href="index.html">home</a></li>
+            <li><a href="pose.html">pose</a></li>
+            <li><a href="weekly.html">weekly</a></li>
+        </ul> 
+        </h3>
+    </nav>
+
+
+    <main class="main">
+       <p>If you would like to follow a class by Asta, please fill out the form below and I'll get in touch with you as soon as possible.</p> 
+       
+       <form class="bookingform" name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>e-mail: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>telephone: <input type="tel" name="tel" /></label>
+        </p>
+        <p>Are you just starting with yoga or do you have a lot of experience? <br>
+            <input type="radio" id="beginner" name="level" value="beginner">
+            <label for="beginner">beginner</label><br>
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">intermediate</label><br>
+            <input type="radio" id="advanced" name="level" value="advanced">
+            <label for="advanced">advanced</label>
+        </p>
+        <p>
+            <label>Let me know if you have any specific yoga wishes: <textarea name="wishes"></textarea></label>
+        </p>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h2>
+            <ul class="navigation">
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="book.html">booking</a></li>
+            </ul> 
+            </h2>
+        </div> 
+    </footer>
+
+</body>
+</html>
